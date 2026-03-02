@@ -1,0 +1,34 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+body{
+  font-family: "Bree Serif", serif;
+}
+ 
+:root{
+ --color-principal-verde: #3cfc07;
+ --color-principal-naranja: #00f2ee;
+ 
+ --fondo-seccion-claro: #bf00ff;
+
+ --fuentes-titulos-1: "forum";
+ --tamano-titulos-1:35px;
+
+ --tamano-margenes-bloques: 100px;
+ --borde-redondeado: 3px;
+ --borde-grosor: 3px;
+ --borde-color: var(--color-principal-naranja);
+ --padding-boton: 10px;
+
+}
+.botones-cabecera a{
+    border: var(--borde-grosor) solid var(--borde-color);
+    text-decoration: none;
+    border-radius: var(--padding-boton) ;
+}
